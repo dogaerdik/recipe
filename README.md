@@ -62,7 +62,7 @@ Run the tests
 Run the project
 
   ```
-  $cd target/
+  $ cd target/
   
   $ java -jar recipe-0.0.1-SNAPSHOT.jar
   ```
