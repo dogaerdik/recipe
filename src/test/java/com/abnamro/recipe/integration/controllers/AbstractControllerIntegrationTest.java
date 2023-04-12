@@ -58,7 +58,7 @@ public class AbstractControllerIntegrationTest {
     }
 
     protected ResultActions performPatch(String path, Object request) throws Exception {
-        return mockMvc.perform(patch(path)
+        return mockMvc.perform(put(path)
                 .content(toJson(request))
                 .contentType(MediaType.APPLICATION_JSON));
     }

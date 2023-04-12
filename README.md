@@ -62,6 +62,8 @@ Run the tests
 Run the project
 
   ```
+  $cd target/
+  
   $ java -jar recipe-0.0.1-SNAPSHOT.jar
   ```
 
@@ -89,4 +91,4 @@ Repository pattern has been used. Hibernate, JPA Data, Junit, Spring Boot, h2-da
 Ingredient and Recipe entities are separate entities. They have relation with One to Many Unidirectional relationship and with Cascade on delete.
 
 For filtering Predicates and Spring Data JPA was used and parameters can set null values except for boolean values.
-Some validations are added to DTO 's and request objects. ModelMapper was added to the configuration and used. For production ready approach azure-pipeline.yml was created.
+Some validations are added to DTO 's and request objects. ModelMapper was added to the configuration and used. For production ready approach build maven added azure-pipeline.yml was created.
